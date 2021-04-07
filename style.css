@@ -508,6 +508,7 @@ button {
 .form-control {
     border-color: rgba(0, 0, 0, .1);
     box-shadow: none;
+    min-height: 50px;
 }
 
 .scrollToTop {
@@ -651,7 +652,7 @@ label,
 a {
     font-family: "helvetica";
     font-weight: 400;
-    color: #575757!important;
+    color: #212121!important;
 }
 
 .container {
@@ -677,7 +678,7 @@ a {
 }
 
 p {
-    font-size: 11px;
+    font-size: 14px;
 }
 
 .tight-width-whitespace {
@@ -775,12 +776,12 @@ h4 {
 }
 
 .tc-white {
-    color: #F3976C!important;
+    color: #FFFFFF!important;
 }
 
 .btn-atomic-tangerine {
     background: #F3976C;
-    color: #FFFFFF!important;
+    color: #212121!important;
 }
 
 .btn-atomic-tangerine:hover {
@@ -822,7 +823,7 @@ h4 {
 }
 
 .bg-presentation {
-    background-image: url("img/image-de-presentation.bmp");
+    background-image: url("img/image-de-presentation.jpg");
 }
 
 @media (max-width: 1024px) {
@@ -1026,6 +1027,7 @@ h4 {
         width: 180px;
         height: 320px;
     }
+
 }
 
 @media (max-width: 400px) {
@@ -1039,4 +1041,31 @@ h4 {
     .bloc-mob-center-text {
         text-align: center;
     }
+    footer li{
+        margin-top: 15px;
+        margin-bottom: 15px;
 }
+.portfolio-thumb{
+   text-align: center;
+}
+}
+
+footer li{
+    margin-top: 10px;
+    margin-bottom: 10px;
+    
+}
+footer h3{
+    font-size:13px;
+    margin-left: 25px;
+    font-weight: 500;
+    margin-top: 0;
+}
+footer p{
+    margin-bottom: 20px;
+}
+
+footer span{
+    margin-bottom:20px;
+}
+
