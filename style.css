@@ -5,12 +5,14 @@ body {
     overflow-x: hidden;
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
+    
 }
 
 a,
 button {
     transition: all .3s ease-in-out;
-    outline: none!important;
+    
+    
 }
 
 a:hover {
@@ -1068,4 +1070,5 @@ footer p{
 footer span{
     margin-bottom:20px;
 }
+
 
